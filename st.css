@@ -1,0 +1,167 @@
+body {
+	margin:0;
+	padding:0;
+
+}
+
+.header {
+	text-align: left;
+	font-family: "Trebuchet MS";
+	font-size: 60px;
+	color: #4d9593;
+	padding: 40px;
+	background-image: url("esc.jpg");
+	text-decoration: none;
+}
+
+
+#nav {
+	position:relative;
+	top: -60px;
+
+	
+	padding:0;
+	overflow:hidden;
+
+	text-align: left;
+	background-color: darkgrey;
+}
+
+
+
+#nav li {
+	position: relative;
+	
+	display: inline-block;
+	font-size: 22px;
+	background-color: darkgrey;
+}
+
+
+#nav a {
+	display: block;
+	font-family: "Trebuchet MS";
+	color: white;
+	padding: 15px 35px 15px;
+	text-decoration: none;
+}
+
+
+li a:hover:not(.active) {
+	font-family: "Trebuchet MS";
+	font-size: 22px;
+	background-color: grey;
+	text-decoration: none;
+}
+
+
+.active {
+	font-family: "Trebuchet MS";
+	font-size: 22px;
+	background-color: #4d9593;
+	text-decoration: none;
+}
+
+.active:hover {
+	font-family: "Trebuchet MS";
+	font-size: 22px;
+	background-color: #2d5756;
+	text-decoration: none;	
+}
+
+
+img {
+
+	width: 100%;
+}
+
+
+.content {
+	margin-top:2%;
+	margin-left: 20%;
+	margin-right: 20%;
+	
+	padding-top:1%;
+	padding-left:2%;
+	padding-right: 2%;
+
+	position:relative;
+	top:-10%;
+}
+
+h2 {
+	text-align: left;
+	font-family: "Trebuchet MS";
+	font-size: 60px;
+	color:black;
+
+	line-height: 40%;
+}
+
+
+h3 {
+	text-align: left;
+	font-family: "Trebuchet MS";
+	font-size: 30px;
+	color: #4d9593;
+
+	line-height: 140%;
+
+}
+h4 {
+	text-align: left;
+	font-family: "Trebuchet MS";
+	font-size: 20px;
+	color: black;
+
+	line-height: 140%;
+	font-weight: normal;
+}
+
+.img_home {
+	width:100%;
+}
+
+
+.button {
+    background-color: #4d9593;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: "Trebuchet MS";
+}
+
+
+.button:hover {
+    background-color: #2d5756;
+}
+
+
+form {
+	display:inline;
+}
+
+.img_del {
+	width:420;
+	height: 375;
+
+}
+
+.rm {
+	width:950;
+	height: 400;
+}
+
+.dr {
+	width:800;
+	height:1200;
+}
+
+.nm {
+	width:800;
+	height:600;	
+}
